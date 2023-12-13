@@ -34,6 +34,12 @@ body {
   padding: 0 15px;
 }
 
+.nav-header {
+  display: flex;
+  align-items: center;
+  /* gap: 40px; */
+}
+
 /* Nav Header li */
 
 .nav-header li {
@@ -53,23 +59,6 @@ body {
   color: #2e2f42;
 }
 
-.forth-section {
-  background-color: #f4f4fd;
-  padding: 120px 0;
-}
-
-.title-forth-section {
-  margin-bottom: 72px;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-/*Stilul pentru "clasa logo-ului*/
-
 .nav-meniu {
   display: flex;
   gap: 40px;
@@ -83,7 +72,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  border: 2px solid red;
+  /* border: 2px dotted red; */
   margin-right: 76px;
   padding: 24px 0;
 
@@ -93,15 +82,10 @@ body {
   display: inline-block;
 }
 
-/*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
-
-/* .logo link {
-  border: 7px solid black;
-} */
-
-.link {
+.webstudio {
   text-decoration: none;
   display: block;
+  border: 5px dotted yellow;
 
   /* padding: 32px 16px;
   border: 5px solid green; */
@@ -109,21 +93,11 @@ body {
 
 .link:hover {
   color: #404bbf;
-
-  /*La hover, în clasa link-ului, a fost atribuit stilul background-color: #31d0aa pentru a schimba culoarea de fundal la trecerea cu mouse-ul peste link*/
-
-  background-color: #31d0aa;
 }
 
 .link:focus {
   color: #404bbf;
-
-  /*La focalizare, în clasa link-ului, a fost atribuit stilul background-color: #31d0aa pentru a schimba culoarea de fundal la click pe link*/
-
-  background-color: #31d0aa;
 }
-
-/*logo-list-primul element al listei*/
 
 .logo-list {
   font-weight: 500;
@@ -196,8 +170,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 
-  /*În clasa link-ului a fost atribuit stilul width: 100% pentru a specifica lățimea elementului la 100% din lățimea containerului părinte*/
-
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -218,28 +190,6 @@ body {
   text-transform: uppercase;
 }
 
-.logo-link:hover {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.container-forth {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.nav-header {
-  display: flex;
-  align-items: center;
-  /* gap: 40px; */
-}
-
 /* .item {
   border: 2px solid red;
   margin-right: 40px;
@@ -254,6 +204,23 @@ body {
   list-style: none;
 }
 
+/*A 4 a sectiune*/
+
+.forth-section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.title-forth-section {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .background-special {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -265,7 +232,37 @@ body {
 
   /*În clasa primului element al listei echipei a fost atribuit stilul box-shadow: cu valorile 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); pentru a specifica umbra elementului*/
 
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.container-forth {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.title-second-section {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.paragraph-second-section {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.index {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.index-media {
+  width: 40px;
+  height: 40px;
 }
 
 .email {
@@ -273,11 +270,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.title-second-section {
-  margin-bottom: 8px;
-  text-align: center;
 }
 
 .first-section {
@@ -322,14 +314,6 @@ body {
 
 .button-class:focus {
   background-color: #404bbf;
-}
-
-.paragraph-second-section {
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .section-third {
@@ -409,22 +393,17 @@ La focalizare, pentru primul buton al listei de filtre a fost atribuit stilul bo
   padding: 100px 0;
 }
 
-.logo-class {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
+/*FOOTER*/
 
-.lgo.link {
+.lgo.sec {
   display: inline-block;
   margin-bottom: 16px;
+  border: 5px dotted blue;
+  width: 100%;
+  height: 100%;
 }
 
-.lgo {
+/* .lgo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -432,17 +411,18 @@ La focalizare, pentru primul buton al listei de filtre a fost atribuit stilul bo
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
+} */
 
 img {
   display: block;
   border: 2px solid red;
 }
 
-.lgo-link {
+/* .lgo-link {
   display: inline-block;
   margin-bottom: 16px;
-}
+  border: 10px dotted green;
+} */
 
 .visually-hidden {
   position: absolute;
@@ -483,11 +463,24 @@ img {
   text-transform: uppercase;
 }
 
-.logo-link {
+.logo-footer-link {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+  border: 5px solid red;
+}
+
+.logo-link:hover {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  border: 2px solid black;
 }
 
 .address {
@@ -559,7 +552,6 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  border: 2px dotted green;
 }
 
 .button-link {
@@ -586,6 +578,7 @@ img {
 
 .one {
   width: calc((100%-48px) / 3);
+  border: 2px dotted black;
 }
 
 .container-footer {
@@ -609,17 +602,6 @@ img {
 }
 
 .socialmedia-list-two {
-  width: 40px;
-  height: 40px;
-}
-
-.index {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.index-media {
   width: 40px;
   height: 40px;
 }
