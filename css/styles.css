@@ -258,12 +258,14 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-}
-
-.index-media {
   width: 40px;
   height: 40px;
 }
+
+/* .index-media {
+  width: 40px;
+  height: 40px;
+} */
 
 .email {
   font-size: 16px;
@@ -625,7 +627,7 @@ img {
 }
 
 .medialinks-class {
-  fill: currentColor;
+  fill: #f4f4fd;
 }
 
 .customer-section {
