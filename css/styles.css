@@ -613,6 +613,7 @@ img {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .medialinks:hover {
@@ -621,6 +622,10 @@ img {
 
 .medialinks:focus {
   background-color: #404bbf;
+}
+
+.medialinks-class {
+  fill: #f4f4fd;
 }
 
 .customer-section {
