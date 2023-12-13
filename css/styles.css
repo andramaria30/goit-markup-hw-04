@@ -625,7 +625,7 @@ img {
 }
 
 .medialinks-class {
-  fill: #f4f4fd;
+  fill: currentColor;
 }
 
 .customer-section {
