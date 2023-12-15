@@ -32,8 +32,7 @@ body {
   border-bottom: 1px solid #ffffff;
   display: flex;
 
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .header-section {
@@ -347,8 +346,6 @@ body {
   background-color: #404bbf;
   border: 1px solid transparent;
 
-  /*La hover, pentru primul buton al listei de filtre a fost atribuit stilul box-shadow: cu valorile 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); pentru a specifica umbra elementului la trecerea cu mouse-ul peste buton*/
-
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -363,9 +360,8 @@ body {
   color: #ffffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
-
-  /*
-La focalizare, pentru primul buton al listei de filtre a fost atribuit stilul box-shadow: cu valorile 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); pentru a specifica umbra elementului la click pe buton*/
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 img {
