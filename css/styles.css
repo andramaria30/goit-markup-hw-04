@@ -29,6 +29,8 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
   width: 1440px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .cls {
@@ -253,8 +255,16 @@ body {
 .first-section {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/pozahero.jpg);
 
-  width: 100%;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title-section {
@@ -521,8 +531,6 @@ img {
   margin-left: 156px;
 }
 
-/*FOOTER*/
-
 .footer-class {
   background: var(--NAVY-BLUE, #2e2f42);
   padding: 100px 0;
@@ -787,4 +795,41 @@ img {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+}
+
+/*FOOTER*/
+
+.container-footer {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
+.p-social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffffff;
+  margin-bottom: 16px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 16px;
+}
+
+.listaa {
+  width: 40px;
+  height: 40px;
+}
+
+.link-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
