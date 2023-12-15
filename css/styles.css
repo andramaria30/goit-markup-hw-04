@@ -395,6 +395,7 @@ img {
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .span-header {
@@ -705,12 +706,13 @@ img {
 .list-customers {
   list-style: none;
   padding: 24px;
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
+
   gap: 24px;
 
   padding-left: 156px;
   padding-right: 156px;
+  height: 88px;
 }
 
 .icons-list {
@@ -767,4 +769,22 @@ img {
 
 .svg-class {
   fill: #f4f4fd;
+}
+
+/*Customers-section*/
+
+.section-customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.link-customers-five-section {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
 }
