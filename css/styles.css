@@ -706,7 +706,6 @@ img {
 
   gap: 24px;
 
-  padding-left: 156px;
   padding-right: 156px;
   height: 88px;
 }
@@ -851,4 +850,29 @@ img {
 
 .last-icons {
   fill: #f4f4f4fd;
+}
+
+/* 
+În clasa link-ului din primul element al listei a fost atribuit stilul display: block pentru a transforma link-ul într-un element de tip bloc
+
+
+
+La hover, în clasa link-ului a fost atribuit stilul box-shadow: cu valorile 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); pentru a specifica umbra elementului la trecerea cu mouse-ul peste link
+
+
+
+La focalizare, în clasa link-ului a fost atribuit stilul box-shadow: cu valorile 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); pentru a specifica umbra elementului la click pe link */
+
+.link-one {
+  display: block;
+}
+
+.link-one:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.link-one {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
