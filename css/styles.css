@@ -26,7 +26,7 @@ body {
 /*HEADER*/
 
 .header-container {
-  width: 1200px;
+  width: 1158px;
   height: 72px;
   border-bottom: 1px;
   border-bottom: 1px solid #ffffff;
@@ -43,6 +43,11 @@ body {
   margin-left: 60px;
 }
 
+.header-section-container {
+  border: 2px solid red;
+  width: 1158px;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -55,7 +60,7 @@ body {
   align-items: center;
 }
 
-.logo-link {
+.logo {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -74,18 +79,13 @@ body {
   padding: 18px 18px 18px 0;
 }
 
-.link {
-  text-decoration: none;
-  padding: 0;
-}
-
 .list {
   list-style: none;
   display: flex;
   gap: 40px;
-  flex-direction: row;
+
   justify-content: space-between;
-  align-items: center;
+
   padding: 15px;
 }
 
@@ -265,10 +265,10 @@ body {
     ),
     url(../images/pozahero.jpg);
 
-  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
 }
 
 .title-section {
@@ -408,16 +408,9 @@ img {
   margin-bottom: 72px;
 }
 
-.logo-link:hover {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  border: 2px solid black;
+.logo-link.link {
+  border: 2px solid red;
+  margin-bottom: 72px;
 }
 
 .button-first-section {
@@ -830,10 +823,7 @@ img {
   justify-content: center;
 }
 
-.link-footer:hover {
-  background-color: #31d0aa;
-}
-
+.link-footer:hover,
 .link-footer:focus {
   background-color: #31d0aa;
 }
