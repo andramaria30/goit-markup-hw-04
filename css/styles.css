@@ -326,6 +326,8 @@ ul {
 
 .list {
   list-style: none;
+  gap: 24px;
+  display:flex;
 }
 
 img {
@@ -473,7 +475,7 @@ img {
   padding: 100px 0;
   margin: 0;
 
-  border: 2px solid red;
+ 
 }
 
 .container-footer {
@@ -655,7 +657,7 @@ img {
   cursor: pointer;
   color: var(--WHITE, #fff);
 
-  /* Button Text */
+ 
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -698,8 +700,25 @@ img {
   width: 100%;
   min-width: 264px;
   gap: 24px;
-  border: 2px solid green;
+ 
 }
+
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+  
 
 .second-section {
   padding: 120px 0;
@@ -715,7 +734,7 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
-  border: 2px solid black;
+  
 }
 
 .paragraph-second-section {
