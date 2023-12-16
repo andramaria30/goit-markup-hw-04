@@ -16,11 +16,123 @@ body {
   color: var(--text-color-slate);
 }
 
-/*Header , Footer si Portfolio*/
-
-ul {
-  padding: 0;
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
+
+
+/*Header*/
+
+
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header-div {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-link {
+  color: var(--text-color-logo);
+  font-family: var(--logo-font-family);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+  display: inline-block;
+}
+
+
+
+.logo-second-word {
+  color: var(--text-color-navy);
+}
+
+
+.list {
+  list-style: none;
+  gap: 24px;
+
+  display: flex;
+}
+
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+
+
+
+.nav-link {
+  color: var(--text-color-navy);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  padding: 24px 0;
+}
+
+.nav-link:hover .nav-link:focus {
+  color: var(--button-hover-color);
+}
+
+
+
+
+.address {
+  color: var(--text-color-slate);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+  /* adaugat in tema 4 */
+  padding-left: 251px;
+}
+
+.address:hover .address:focus {
+  color: var(--text-color-cloud);
+}
+
+
+.phone-email {
+  color: var(--text-color-slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.phone-email:hover .phone-email:focus {
+  background-color: var(--button-hover-color);
+}
+
+
+/*First Section*/
+
+
+
 
 .first-section {
   background-color: #2e2f42;
@@ -37,11 +149,7 @@ ul {
   max-width: 1440px;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 
 .title-first-section {
   font-size: 56px;
@@ -82,6 +190,26 @@ ul {
 .button-first-section:focus {
   background-color: #404bbf;
 }
+
+
+
+/*Second section*/
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  padding: 0;
+}
+
+
 
 .title-second-section {
   margin-bottom: 8px;
@@ -265,86 +393,22 @@ ul {
   color: #404bbf;
 }
 
-.list {
-  list-style: none;
-  gap: 24px;
 
-  display: flex;
-}
 
 img {
   display: block;
 }
 
-.header {
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
 
-.header-div {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
-.nav {
-  display: flex;
-  align-items: center;
-}
 
-.nav-link {
-  color: var(--text-color-navy);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.32px;
-  padding: 24px 0;
-}
 
-.nav-link:hover .nav-link:focus {
-  color: var(--button-hover-color);
-}
 
-.nav-menu {
-  display: flex;
-  gap: 40px;
-}
 
-.logo-link {
-  color: var(--text-color-logo);
-  font-family: var(--logo-font-family);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  margin-right: 76px;
-  display: inline-block;
-}
 
-.logo-second-word {
-  color: var(--text-color-navy);
-}
 
-.address {
-  color: var(--text-color-slate);
-  font-size: 16px;
-  font-style: normal;
-  line-height: 150%;
-  letter-spacing: 0.32px;
-}
 
-.address-list {
-  display: flex;
-  gap: 40px;
-  /* adaugat in tema 4 */
-  padding-left: 251px;
-}
 
-.address:hover .address:focus {
-  color: var(--text-color-cloud);
-}
 
 .button {
   font-family: "Roboto", sans-serif;
@@ -569,19 +633,8 @@ img {
   letter-spacing: 0.02em;
 }
 
-.phone-email {
-  color: var(--text-color-slate);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 
-.phone-email:hover .phone-email:focus {
-  background-color: var(--button-hover-color);
-}
 
-/*Gata cu Header , Portfolio si Footer*/
-
-/*First Section*/
 
 .first-section {
   background-color: #2e2f42;
@@ -727,10 +780,7 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.container-forth {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 
 .paragraph-second-section-forth {
   color: var(--SLATE, #434455);
