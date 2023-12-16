@@ -233,7 +233,23 @@ ul {
   color: #2e2f42;
 }
 
+.background-special {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 100%;
+  min-width: 264px;
+  gap: 24px;
 
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 
 .container-forth {
   padding-top: 32px;
@@ -242,7 +258,6 @@ ul {
 
 .link:hover {
   color: #404bbf;
-  
 }
 .link:focus {
   color: #404bbf;
@@ -343,16 +358,18 @@ img {
   border-radius: 4px;
 }
 
-
-
-.button:hover,
+.button:hover {
+  background-color: #404bbf;
+  color: #ffffffff;
+  border: 1px solid transparent;
+  box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .button:focus {
   background-color: #404bbf;
   color: #ffffffff;
   border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
-  
 }
 
 .portfolio-list {
@@ -366,43 +383,27 @@ img {
   width: calc((100%-48px) / 3);
 }
 
-
-/*În clasa link-ului din primul element al listei a fost atribuit stilul display: block pentru a transforma link-ul într-un element de tip bloc
-
-
-
-La hover, în clasa link-ului a fost atribuit stilul box-shadow: cu valorile 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); pentru a specifica umbra elementului la trecerea cu mouse-ul peste link
-
-
-
-La focalizare, în clasa link-ului a fost atribuit stilul box-shadow: cu valorile 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); pentru a specifica umbra elementului la click pe link*/ 
-
-
-.portfolio-link{
-  display:block;
-}
-
-
-.portfolio-link:hover,
-.portfolio-link:focus{
-
-  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
-}
-
-
-
-
-
-
-
-
-
 .portfolio-link-div {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+.portfolio-link:hover{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
+
+
+.portfolio-link:focus{
+
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+
+}
+
+
+
+
+
 
 .section-one-icons {
   display: flex;
@@ -505,13 +506,6 @@ La focalizare, în clasa link-ului a fost atribuit stilul box-shadow: cu valoril
   justify-content: center;
 }
 
-
-.link-footer:hover,
-.link-footer:focus{background-color: #31d0aa; 
-
-
-}
-
 .filter-section {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -524,7 +518,7 @@ La focalizare, în clasa link-ului a fost atribuit stilul box-shadow: cu valoril
   margin-bottom: 72px;
 }
 
-.button-filter {
+/* .button-filter {
   font-family: var(--text-font-family);
   color: #4d5ae5;
   font-size: 16px;
@@ -538,11 +532,7 @@ La focalizare, în clasa link-ului a fost atribuit stilul box-shadow: cu valoril
 .button-filter:hover .button-filter:focus {
   color: #ffffffff;
   background-color: #404bbf;
-}
-
-
-
-
+} */
 
 .projects-name {
   color: var(--text-color-navy);
@@ -620,6 +610,9 @@ La focalizare, în clasa link-ului a fost atribuit stilul box-shadow: cu valoril
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
 
 .button-first-section:hover {
   background-color: #404bbf;
