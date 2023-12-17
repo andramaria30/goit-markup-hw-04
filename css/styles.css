@@ -1,5 +1,6 @@
 :root {
   --main-color-white: white;
+  --text-color-white: #FFFFFFFF;
   --text-color-navy: #2e2f42;
   --text-color-slate: #434455;
   --text-color-cloud: #f4f4fd;
@@ -16,6 +17,20 @@ body {
   background-color: var(--main-color-white);
   color: var(--text-color-slate);
 }
+
+
+p{
+  margin:0;
+  
+}
+
+
+
+
+
+
+
+
 
 .container {
   width: 1158px;
@@ -196,6 +211,19 @@ body {
 
 /*Second section*/
 
+.p-social-media {
+
+  margin-bottom: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color-white);
+  font-style: normal;
+  
+  
+}
 
 
 
@@ -335,6 +363,7 @@ ul {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  box-sizing: border-box;
 }
 
 .link-customers-five-section:hover {
@@ -547,19 +576,6 @@ img {
 
 }
 
-.p-social-media {
-
-  margin-bottom: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #ffffffff;
-  font-style: normal;
-  
-  
-}
 
 
 
