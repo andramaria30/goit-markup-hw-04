@@ -292,8 +292,7 @@ ul {
 
   gap: 24px;
 
-  /* padding-right: 156px; */
-  /* height: 88px; */
+  
 }
 
 
@@ -472,21 +471,10 @@ img {
 
 
 
-
-.section-one-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  background: #f4f4fd;
-}
-
 .footer-class {
-  background: var(--NAVY-BLUE, #2e2f42);
+  background-color: var(--background-color);
   padding: 100px 0;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .container-footer {
