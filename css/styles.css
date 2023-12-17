@@ -521,8 +521,6 @@ img {
 
 .last-icons {
   fill: #f4f4f4fd;
-  width: 24px;
-  height: 24px;
 }
 
 .logo-footer-link {
@@ -531,12 +529,12 @@ img {
   /* Body */
   /* font-family: Roboto; */
   font-size: 16px;
-  /* font-style: normal; */
-  /* font-weight: 400; */
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   max-width: 264px;
-  /* margin-left: 156px; */
+  margin-left: 156px;
 
 }
 
@@ -556,7 +554,6 @@ img {
 
 .footer-list {
   display: flex;
-  /* justify-content: center; */
   gap: 16px;
 }
 
