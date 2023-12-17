@@ -278,7 +278,7 @@ ul {
 
 .our-team-icons {
   /* fill: #f4f4fd; */
-  color: var(--text-color-cloud);
+  fill: var(--text-color-cloud);
 }
 
 .section-customers {
@@ -549,7 +549,7 @@ img {
 
 .p-social-media {
 
-  margin-bottom: 16px;
+  margin: 0;
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -562,10 +562,7 @@ img {
 }
 
 
-.p-social-media{
-  margin:0;
 
-}
 
 .footer-list {
   display: flex;
