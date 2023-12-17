@@ -6,6 +6,7 @@
   --text-color-logo: #4d5ae5;
   --background-color: #2e2f42;
   --button-hover-color: #404bbf;
+  
   --logo-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
 }
@@ -275,7 +276,8 @@ ul {
 }
 
 .our-team-icons {
-  fill: #f4f4fd;
+  /* fill: #f4f4fd; */
+  color: var(--text-color-cloud);
 }
 
 .section-customers {
@@ -520,7 +522,8 @@ img {
 }
 
 .last-icons {
-  fill: #f4f4f4fd;
+  /* fill: #f4f4f4fd; */
+  fill: var(--text-color-cloud);
 }
 
 .logo-footer-link {
