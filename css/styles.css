@@ -265,6 +265,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: Center;
+  fill: var(--text-color-cloud);
 }
 
 .link-icons:hover {
@@ -548,7 +549,7 @@ img {
 
 .p-social-media {
 
-  margin: 0;
+  margin-bottom: 16px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -558,6 +559,12 @@ img {
   font-style: normal;
   
   
+}
+
+
+.p-social-media{
+  margin:0;
+
 }
 
 .footer-list {
