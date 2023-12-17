@@ -303,7 +303,8 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   color: var(--NAVY-BLUE, #2e2f42);
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
+  margin: 0;
   text-align: center;
 }
 
